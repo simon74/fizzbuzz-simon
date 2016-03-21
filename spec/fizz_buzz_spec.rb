@@ -14,7 +14,15 @@ describe 'fizz_buzz' do
   end
 
   it 'returns 4 when number is 4' do
-  expect(fizz_buzz(4)).to eq 4
+  	expect(fizz_buzz(4)).to eq 4
+  end
+	
+	it 'returns "buzz" when number is 5' do
+  	expect(fizz_buzz(5)).to eq 'buzz'
+  end
+
+	it 'returns "fizzbuzz" when number is 15' do
+  	expect(fizz_buzz(15)).to eq 'fizzbuzz'
   end
 
 end
